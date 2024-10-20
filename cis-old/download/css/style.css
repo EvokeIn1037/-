@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei";
+}
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100%;
+}
+#menu{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 85px;
+    background: #bed4e1;
+}
+#menu p{
+    margin-left: 15%;
+    margin-top: 29px;
+    font-size: 27px;
+    font-weight: 500;
+}
+.maintext{
+    margin-top: 11%;
+	margin-bottom: 5%;
+}
+.maintext header{
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+}
+.drag-area{
+    border: 2px dashed #5380cd;
+    height: 400px;
+    width: 700px;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+.drag-area .icon{
+    font-size: 100px;
+    color: #5380cd;
+}
+.drag-area button{
+	padding: 10px 25px;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	outline: none;
+	background: #ceccce;
+	color: #000000;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.drag-area a{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+.drag-area a:hover{
+    color: #5380cd;
+    text-decoration: none;
+    outline: none;
+}
+.drag-area a:focus{
+    outline: none;
+    outline-offset: 0;
+}

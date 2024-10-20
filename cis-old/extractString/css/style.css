@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Microsoft YaHei";
+}
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100%;
+}
+#menu{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 85px;
+	background: #bed4e1;
+}
+#menu p{
+	margin-left: 15%;
+	margin-top: 29px;
+	font-size: 27px;
+	font-weight: 500;
+}
+.maintext{
+	margin-top: 110px;
+}
+.maintext header{
+	font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+}
+.darea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.darea .icon{
+	font-size: 100px;
+	color: #5380cd;
+}
+.darea header{
+	font-size: 30px;
+	font-weight: 500;
+	color: #000000;
+}
+.darea span{
+	font-size: 25px;
+	font-weight: 500;
+	color: #000000;
+	margin: 10px 0 15px 0;
+}
+.darea button{
+	padding: 10px 25px;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	outline: none;
+	background: #ceccce;
+	color: #000000;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.drag-area1{
+    border: 2px dashed #5380cd;
+    height: 450px;
+    width: 500px;
+    margin-right: 5%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+.drag-area1.active{
+	border: 2px solid #5380cd;
+}
+.drag-area2{
+    border: 2px dashed #5380cd;
+    height: 450px;
+    width: 500px;
+    margin-left: 5%;
+    border-radius: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+.drag-area2.active{
+    border: 2px solid #5380cd;
+}
+.result{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.result p{
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#progressbar {
+	width:60%;
+	margin-top:10px;
+}
+#progressbar .ui-progressbar {
+        position: relative;
+        width: 60%;
+}
+#progressbar .ui-progressbar-value {
+        height: 105%;
+        background: #5380cd;
+}
+.progress-label {
+        width: 60%;
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+}
+#progressbar1 {
+	width: 80%;
+}
+#progressbar1 .ui-progressbar {
+        position: relative;
+        width: 80%;
+}
+#progressbar1 .ui-progressbar-value {
+        height: 105%;
+        background: #5380cd;
+}
+.progress-label1 {
+        width: 356.8px;
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+}
+#progressbar2 {
+	width: 80%;
+}
+#progressbar2 .ui-progressbar {
+        position: relative;
+        width: 80%;
+}
+#progressbar2 .ui-progressbar-value {
+        height: 105%;
+        background: #5380cd;
+}
+.progress-label2 {
+        width: 356.8px;
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+}
+#txtBlock {
+	margin-top: 15px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+		<title>身份字符串提取</title>
+		<script src="script/font.js"></script>
+		<link rel="stylesheet" href="../css/font.css"/>
+		<link rel="stylesheet" href="../css/main.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="//apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.min.css">
+                <link rel="stylesheet" href="//apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.css">
+                <script src="//apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+                <script src="//apps.bdimg.com/libs/jquery/1.10.2/jquery.js"></script>
+                <script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+                <script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.js"></script>
+	</head>
+	
+	<body style="background-image: url(https://www.talklee.com/api/bing?rand=true)">
+		<div id="menu"><p>结合可见光通信和数字编码的视频版权保护系统</p></div>
+		<div class="maintext">
+			<header>请分别上传原视频和添加水印或偷拍的视频</header>
+		</div>
+		<div class="darea">
+			<div class="drag-area1">
+				<div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+				<header>拖动文件上传原视频</header>
+				<span>或者</span>
+				<button>浏览文件</button>
+				<input type="file" hidden>
+			</div>
+			<div class="drag-area2">
+				<div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+				<header>拖动文件上传处理后视频</header>
+				<span>或者</span>
+				<button>浏览文件</button>
+				<input type="file" hidden>
+			</div>
+		</div>
+		<div id="progressbar">
+			<div class="progress-label"></div>
+		</div>
+		<div class="result">
+			<div><p>身份字符串为：</p></div>
+			<div><p class="idstr"></p></div>
+		</div>
+		<script src="script/script.js"></script>
+	</body>
+</html>

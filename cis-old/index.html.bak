@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>系统主页</title>
+		
+		<script src="jquery/jquery.min.js"></script>
+
+		<link rel="stylesheet" href="css/animate.min.css"/>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/font.css"/>
+		<link rel="stylesheet" href="css/full-screen-slide.min.css"/>
+		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="css/normalize.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	
+	<body>
+		<div id="menu"><p>结合可见光通信和数字编码的视频版权保护系统</p></div>
+		<div class="func">
+			<div class="func1">
+				<div class="abox1">
+					<header>功能一</header>
+					<!--<center><a href="https://evoke1037.top/cis/upload/"></a></center>-->
+					<div class="functxt" id="func1txt1"></div>
+					<div class="functxt" id="func1txt2"></div>
+					<div class="functxt" id="func1txt3"></div>
+				</div>
+			</div>
+			<div class="func2">
+				<div class="abox2">
+					<header>功能二</header>
+					<!--<center><a href="https://evoke1037.top/cis/extractString/"></a></center>-->
+					<div class="functxt" id="func2txt1"></div>
+					<div class="functxt" id="func2txt2"></div>
+				</div>
+			</div>
+		</div>
+		<br/><br/><br/>
+		<div>
+			<h2 class="page-header">系统创新性</h2>
+		</div>
+		<div id="feature">
+            <div class="row">
+                <div class="col-sm-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="feature-inner">
+                        <div class="icon-wrapper">
+                            <i><img src="img/ino-1.png" width="150px" height="150px"></i>
+                        </div>
+                        <h2>防偷拍策略</h2>
+                        <p>将原视频的每一帧处理成反色的两帧，使人眼看到的画面与使用相机偷拍的画面存在较大差异</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
+                    <div class="feature-inner">
+                        <div class="icon-wrapper">
+                            <i><img src="img/ino-2.png" width="150px" height="150px"></i>
+                        </div>
+                        <h2>隐形水印</h2>
+                        <p>同样基于前面可见光通信的理论，按照定式生成反色帧，从而达到嵌入水印的效果</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="900ms">
+                    <div class="feature-inner">
+                        <div class="icon-wrapper">
+                            <i><img src="img/ino-3.png" width="150px" height="150px"></i>
+                        </div>
+                        <h2>交互界面</h2>
+                        <p>用户可以通过预览界面充分了解我们系统的特点与操作方法</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div>
+			<h2 class="page-header">相关技术</h2>
+		</div>
+		<div>
+			<section id="features">
+				<div class="container">
+					<div class="row">
+						<div class="single-features center">
+							<div class="col-sm-2 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <br><br>
+                                <img src="img/tech-1.png" class="img-responsive" alt="" width="75px" height="75px">
+                            </div>
+							<div class="col-sm-9 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+								<h2>颜色描述</h2>
+								<p>各种模型被设计用来量化人类的色彩视觉。1931年的CIE色彩空间是电磁可见光谱中的物理纯色和人类色彩视觉中的生理感知色彩之间的第一个被明确定义的定量联系。它将光的光谱功率分布转换为三个三模值X、Y、Z。这里Y决定了亮度，X和Z给出了该亮度下的色度。色度值可以用CIE色度图来表示。</p>
+							</div>
+						</div>
+						<div class="single-features center">
+							<div class="col-sm-9 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+								<h2>光谱颜色混合规则</h2>
+								<p>沿着两点之间线段上的任何一个点的颜色都可以通过混合两个端点的颜色来合成，被称为色度加成法则。即在该图中任意选定两点，两点间直线上的颜色可由这两点的颜色混合成。给定三个点，三点构成的三角形内颜色可由这三个点颜色混合成。</p>
+							</div>
+						    <div class="col-sm-2 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <br><br>
+                                <img src="img/tech-2.png" class="img-responsive" alt="" width="75px" height="75px">
+                            </div>
+						</div>
+						<div class="single-features center">
+						    <div class="col-sm-2 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <br><br>
+                                <img src="img/tech-3.png" class="img-responsive" alt="" width="75px" height="75px">
+                            </div>
+							<div class="col-sm-9 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+								<h2>时间颜色混合感知</h2>
+								<p>当人们观看时间变化的颜色时，他们同时接受亮度变化和色度变化。当两种孤立的颜色以25Hz或更高的频率交替出现时，观察者通常只感知到一种融合的颜色，其色度是根据前面讨论的色度加成规则决定的。</p>
+							</div>
+						</div>
+						<div class="single-features center">
+							<div class="col-sm-9 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+								<h2>闪烁和临界闪烁频率（CFF）</h2>
+								<p>尽管人类的视觉系统非常高效和强大，但它解释视频显示器上的时间信息的能力却很有限。当变化频率小于眼睛的可分辨率时，称为临界闪烁频率（CFF），就会发生闪烁。亮度闪烁是指在屏幕上显示的帧之间，当亮度下降时，可见的亮度消退。时间间隔长到足以被人眼发现。色度闪烁的定义与此类似。另一方面，当闪烁频率大于CFF阈值时，来自一系列连续帧的照度闪烁刺激和色度闪烁刺激分别只被人类感知为时间平均亮度和时间平均波长。</p>
+							</div>
+							<div class="col-sm-2 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <br><br>
+                                <img src="img/tech-4.png" class="img-responsive" alt="" width="75px" height="75px">
+                            </div>
+						</div>
+						<div class="single-features center">
+						    <div class="col-sm-2 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <br><br>
+                                <img src="img/tech-5.png" class="img-responsive" alt="" width="75px" height="75px">
+                            </div>
+							<div class="col-sm-9 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+								<h2>视频编码</h2>
+								<p>大多数屏幕通过用不同数量的三种原色（红色、绿色和蓝色）刺激视锥细胞来产生多种颜色。视频通常以压缩形式存储以减小文件大小，并且开发了许多视频文件格式。在这项工作中，我们将考虑一个由连续静止图像组成的通用视频流，称为帧。每帧都是一个彩色像素矩阵。在播放视频的过程中，视频流被显示系统逐帧解码呈现。由于phi现象，以高频率（或称为刷新率）显示帧会产生运动图像的错觉。现代现成的液晶显示器和投影仪支持120Hz刷新率，一些游戏液晶显示器的刷新率可以达到240Hz。由于大多数电影是以每秒24或30帧的速度拍摄的，因此每个原始视频帧通常会在屏幕上显示时重复多次。</p>
+							</div>
+						</div>
+						<div class="single-features center">
+							<div class="col-sm-9 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+								<h2>数字水印</h2>
+								<p>为了增加对视频版权的保护，我们在视频中增添了用于表示身份的数字水印。我们的系统中主要对RS码的编码与解码进行了分析，RS码是纠删码的一种。纠删码，是一种前向错误纠正技术（FEC），主要应用在网络传输中避免包的丢失，存储系统利用它来提高存储可靠性。相比多副本复制而言，纠删码能够以更小的数据冗余度获得更高数据可靠性，但编码方式较复杂，需要大量计算。纠删码只能容忍数据丢失，无法容忍数据篡改，纠删码正是得名与此。RS码可以将n份原始数据，增加m份数据，并能通过n+m份中的任意n份数据，还原为原始数据。即如果有任意小于等于m份的数据失效，仍然能通过剩下的数据还原出来。</p>
+							</div>
+							<div class="col-sm-2 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <br><br>
+                                <img src="img/tech-6.png" class="img-responsive" alt="" width="75px" height="75px">
+                            </div>
+						</div>
+						<div class="single-features center">
+						    <div class="col-sm-2 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <br><br>
+                                <img src="img/tech-7.png" class="img-responsive" alt="" width="75px" height="75px">
+                            </div>
+							<div class="col-sm-9 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+								<h2>透视变换</h2>
+								<p>在验证并复现恶意方采用的手段时运用到了透视变换技术，透视变换是指利用透视中心、像点、目标点 三点共线的条件，按透视旋转定律使承影面(透视面)绕迹线(透视轴)旋转某一角度，破坏原有的投影光线束，仍能保持承影面上投影几何图形不变的变换。简而言之，就是将一个平面通过一个投影矩阵投影到指定平面上。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script src="script/bootstrap.min.js"></script>
+		<script src="script/full-screen-slide.min.js"></script>
+		<script src="script/main.js"></script>
+		<script src="script/script.js"></script>
+		<script src="script/wow.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+		<title>文件上传</title>
+		<script src="script/font.js"></script>
+		<link rel="stylesheet" href="../css/font.css"/>
+		<link rel="stylesheet" href="../css/main.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="//apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.min.css">
+		<link rel="stylesheet" href="//apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.css">
+		<script src="//apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="//apps.bdimg.com/libs/jquery/1.10.2/jquery.js"></script>
+		<script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+		<script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.js"></script>
+	</head>
+	<body>
+		<div id="menu"><p>结合可见光通信和数字编码的视频版权保护系统</p></div>
+		<div class="maintext">
+			<center><header>在线为不同格式的视频添加水印，不需要下载与安装任何软件</header></center>
+			<br/>
+			<center><header>可选的视频格式包括.mp4格式和.avi格式</header></center>
+			<div class="charcont">
+				<header>请输入表示身份的字符串： </header>
+				<input type="text" class="inputchar">
+				<input type="checkbox" class="checkchar">
+			</div>
+		</div>
+		<div class="drag-area">
+			<div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+			<header>拖动文件上传</header>
+			<span>或者</span>
+			<button>浏览文件</button>
+			<input type="file" hidden>
+		</div>
+		<script src="script/script.js"></script>
+	</body>
+</html>

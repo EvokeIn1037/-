@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Microsoft YaHei";
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+#menu{  
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 85px;
+	background: #bed4e1;
+}
+#menu p{
+	margin-left: 15%;
+	margin-top: 29px;
+	font-size: 27px;
+	font-weight: 500;
+}
+.maintext{
+	margin-top: 110px;	
+}
+.maintext header{
+	font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+}
+.charcont{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	margin-top: 15%;
+	margin-bottom: 5%;
+}
+.charcont input{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.drag-area{
+	border: 2px dashed #5380cd;
+	height: 400px;
+	width: 700px;
+	margin-bottom: 5%;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #fff;
+}
+.drag-area.active{
+	border: 2px solid #5380cd;
+}
+.drag-area .icon{
+	font-size: 100px;
+	color: #5380cd;
+}
+.drag-area header{
+	font-size: 30px;
+	font-weight: 500;
+	color: #000000;
+}
+.drag-area span{
+	font-size: 25px;
+	font-weight: 500;
+	color: #000000;
+	margin: 10px 0 15px 0;
+}
+.drag-area button{
+	padding: 10px 25px;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	outline: none;
+	background: #ceccce;
+	color: #000000;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.drag-area img{
+    height: 100%;
+    width: 100%;
+}
+.drag-area video{
+	height: 100%;
+	width: 100%;
+}
+.drag-area a{
+	font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+	text-decoration: none;
+}
+.drag-area a:hover{
+    color: #5380cd;
+    text-decoration: none;
+	outline: none;
+}
+.drag-area a:focus{
+	outline: none;
+	outline-offset: 0;
+}
+#progressbar {
+	width: 80%;
+}
+#progressbar .ui-progressbar {
+	position: relative;
+	width: 80%;
+}
+#progressbar .ui-progressbar-value {
+	height: 105%;
+	background: #5380cd;
+}
+.progress-label {
+	width: 556.8px;
+	position: absolute;
+	font-weight: bold;
+	text-align: center;
+}
+#linkAddress {
+	margin-top: 25px;
+}
+
